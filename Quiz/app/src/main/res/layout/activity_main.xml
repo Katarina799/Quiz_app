@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Harry Potter Quiz!"
+            android:textColor="#FFFFFF"
+            android:textCursorDrawable="@android:drawable/alert_dark_frame"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/harryp" />
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="What is Lord Voldemort’s real name? "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:fontFamily="sans-serif" />
+
+        <RadioGroup
+            android:id="@+id/answersq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q1rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tom Ravolo Riddle"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif"
+                app:buttonTint="#FFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/q1rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tom Marvin Riddle"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif"
+                app:buttonTint="#FFFFFF"/>
+
+            <RadioButton
+                android:id="@+id/q1rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tom Marvilo Riddle"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif"
+                app:buttonTint="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/q1rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tom Marvolo Riddle"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif"
+                app:buttonTint="#FFFFFF" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="What is the Sorting Hat responsible for?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:fontFamily="sans-serif" />
+
+        <RadioGroup
+            android:id="@+id/answersq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q2rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Planning classes schedule in Hogwarts"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif"
+                app:buttonTint="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/q2rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Determining which of the four school Houses each new student belongs most to"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:buttonTint="#FFFFFF"
+                app:fontFamily="sans-serif" />
+
+            <RadioButton
+                android:id="@+id/q2rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Testing Hogwart's students IQ level"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:buttonTint="#FFFFFF"
+                app:fontFamily="sans-serif" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="Who was a teacher in Hogwarts? "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:fontFamily="sans-serif" />
+
+        <CheckBox
+            android:id="@+id/q3c1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minerwa McGonagall"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif"
+            app:buttonTint="#FFFFFF"/>
+
+        <CheckBox
+            android:id="@+id/q3c2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Argus Filch"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif"
+            app:buttonTint="#FFFFFF"/>
+
+        <CheckBox
+            android:id="@+id/q3c3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Severus Snape"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif"
+            app:buttonTint="#FFFFFF"/>
+
+        <CheckBox
+            android:id="@+id/q3c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rubeus Hagrid"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif"
+            app:buttonTint="#FFFFFF"/>
+
+        <CheckBox
+            android:id="@+id/q3c5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arthur Weasley"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif"
+            app:buttonTint="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="Which of these names belongs to Weasley's children?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:fontFamily="sans-serif" />
+
+        <CheckBox
+            android:id="@+id/q4c1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Molly"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:buttonTint="#FFFFFF"
+            app:fontFamily="sans-serif" />
+
+        <CheckBox
+            android:id="@+id/q4c2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ginny"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:buttonTint="#FFFFFF"
+            app:fontFamily="sans-serif" />
+
+        <CheckBox
+            android:id="@+id/q4c3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Greg"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:buttonTint="#FFFFFF"
+            app:fontFamily="sans-serif" />
+
+        <CheckBox
+            android:id="@+id/q4c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Percy"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif"
+            app:buttonTint="#FFFFFF"/>
+
+        <CheckBox
+            android:id="@+id/q4c5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fred"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:buttonTint="#FFFFFF"
+            app:fontFamily="sans-serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="The Dursleys live at 4 Privet Drive."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
+
+            <ToggleButton
+                android:id="@+id/buttonq5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textOff="False"
+                android:textOn="Truth"
+                android:textSize="18sp"
+                app:fontFamily="@font/harryp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/question6"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Professor Dumbledore does not like Bertie Bott's Every Flavor Beans."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
+
+            <ToggleButton
+                android:id="@+id/buttonq6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textOff="False"
+                android:textOn="Truth"
+                android:textSize="18sp"
+                app:fontFamily="@font/harryp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clearbutton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CLEAR"
+                android:textSize="36sp"
+                app:fontFamily="@font/harryp" />
+
+            <Button
+                android:id="@+id/checkbutton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CHECK"
+                android:textSize="36sp"
+                app:fontFamily="@font/harryp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
